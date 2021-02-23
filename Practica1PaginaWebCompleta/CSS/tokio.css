@@ -69,3 +69,14 @@ iframe {
     margin: 8px auto;
 }
 
+footer {
+    height: 5vh;
+    background: rgb(61, 60, 60);
+}
+
+footer>p {
+    
+    color: white;
+    font-size: 30px;
+}
+
