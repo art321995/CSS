@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(61, 60, 60);
+    height: 10vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
