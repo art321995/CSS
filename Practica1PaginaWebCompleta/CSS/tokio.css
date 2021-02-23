@@ -5,13 +5,14 @@
 
 header {
     background: rgb(61, 60, 60);
-    height: 10vh;
+    height: 15vh;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
+
 }
 
 .container {
@@ -36,7 +37,7 @@ aside>.contenedorLinks {
 .contenedorLinks>a {
     display: block;
     font-size: 20px;
-    font-style: oblique;
+    font-style: arial;
     color: blue;
     margin: 2px 0px;
 }
@@ -47,5 +48,24 @@ section {
     height: 100%;
     padding-top: 3%;
     background: white;
+}
+
+h3 {
+    font-size: 58px;
+    width: 95%;
+    margin:  auto;
+}
+
+.TextoPrincipal {
+    font-size: 22px;
+    width: 90%;
+    margin: 8px auto;
+    text-align: justify;
+    font-style: oblique;
+}
+
+iframe {
+    display: block;
+    margin: 8px auto;
 }
 
