@@ -12,17 +12,20 @@ section{
 .sec1{
     background: url('./../access/img.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
+    background-attachment: fixed;  
 }
 .sec2{
     background: url('./../access/img2.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
+    background-attachment: fixed;  
 }
 .sec3{
     background: url('./../access/img3.jpeg');
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
+    background-attachment: fixed;  
 }
 .secText{
     height: auto;
