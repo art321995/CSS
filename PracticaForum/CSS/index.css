@@ -8,13 +8,108 @@ header{
 h1 {
     
     color: grey;
-    font-size: 80px;
+    font-size: 73px;
 }
 h5{
-    height: -5%;
-    width: 22%;
+    padding: -5px;
+    width: 19.5%;
     color: rgb(71, 143, 71);
     font-size: 19px;
     text-align: right;
   
+}
+.botones{
+    padding: 10px;
+    text-align: center;
+}
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_3{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_4{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_5{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_6{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: #1aec24;
+}
+.boton_7{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: arial;
+    color: white;
+    background-color: grey;
 }
