@@ -113,9 +113,39 @@ h5{
     color: white;
     background-color: grey;
 }
-.img{
-    width: 100%;
-    text-align: center;
-    border-radius: 15px;
+.contendeor{
+    position: relative;
+    display: inline-block;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 97%;
+    height: 20vw;
     border: 3px double #006505;
+}
+
+.texto1{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    color: white;
+    font-size: 18px;
+    font-style: arial;
+}
+.texto2{
+    position: absolute;
+    top: 235px;
+    left: 890px;
+    color: white;
+    font-size: 28px;
+    font-style: arial;
+}
+.texto3{
+    position: absolute;
+    top: 250px;
+    left: 890px;
+    color: white;
+    font-size: 70px;
+    font-style: arial;
 }
