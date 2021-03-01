@@ -113,3 +113,9 @@ h5{
     color: white;
     background-color: grey;
 }
+.img{
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
