@@ -2,27 +2,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     background: rgb(233, 229, 229);
 }
+
 h1 {
-    
     color: grey;
     font-size: 73px;
 }
-h5{
+
+h5 {
     padding: -5px;
     width: 19.5%;
     color: rgb(71, 143, 71);
     font-size: 19px;
     text-align: right;
-  
 }
-.botones{
+
+.botones {
     padding: 10px;
     text-align: center;
 }
-.boton_1{
+
+.boton_1 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -35,7 +38,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_2{
+
+.boton_2 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -48,7 +52,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_3{
+
+.boton_3 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -61,7 +66,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_4{
+
+.boton_4 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -74,7 +80,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_5{
+
+.boton_5 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -87,7 +94,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_6{
+
+.boton_6 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -100,7 +108,8 @@ h5{
     color: white;
     background-color: #1aec24;
 }
-.boton_7{
+
+.boton_7 {
     text-decoration: none;
     padding: 3px;
     padding-left: 10px;
@@ -113,11 +122,13 @@ h5{
     color: white;
     background-color: grey;
 }
-.contendeor{
+
+.contendeor {
     position: relative;
     display: inline-block;
 }
-img{
+
+img {
     margin: auto;
     display: block;
     width: 97%;
@@ -125,7 +136,7 @@ img{
     border: 3px double #006505;
 }
 
-.texto1{
+.texto1 {
     position: absolute;
     top: 380px;
     left: 50px;
@@ -133,7 +144,8 @@ img{
     font-size: 18px;
     font-style: arial;
 }
-.texto2{
+
+.texto2 {
     position: absolute;
     top: 235px;
     left: 890px;
@@ -141,11 +153,52 @@ img{
     font-size: 28px;
     font-style: arial;
 }
-.texto3{
+
+.texto3 {
     position: absolute;
     top: 250px;
     left: 890px;
     color: white;
     font-size: 70px;
     font-style: arial;
+}
+.cuadros{
+    display: flex;
+    text-align: center;
+}
+
+.cuadro1 {
+    background: rgb(148, 7, 30);
+    width: 17%;
+    height: 17vh;
+    padding: 11%;
+    margin: 10px 18px;
+    border:  2px  double black;
+}
+
+.cuadro2 {
+    background: rgb(43, 44, 43);
+    width: 17%;
+    height: 17vh;
+    padding: 11%;
+    margin: 10px 18px;
+    border:  2px  double black;
+}
+
+.cuadro3 {
+    background: white;
+    width: 17%;
+    height: 17vh;
+    padding: 11%;
+    margin: 10px 18px;
+    border:  2px  double black;
+}
+
+.cuadro4{
+    background: rgb(45, 230, 45);
+    width: 17%;
+    height: 17vh;
+    padding: 11%;
+    margin: 10px 18px;
+    border:  2px  double black;
 }
