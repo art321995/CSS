@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Permanent+Marker&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+}
+header {
+    background: rgb(233, 229, 229);
+    width: 98%;
+    margin: 0px 5px;
+}
+h1{
+    height: 10%;
+    width: 100%;
+    color:rgb(194, 240, 30);
+    font-size: 55px;
+    font-family:'Lato', sans-serif;
+    border: 2px double black;
+    text-align: center;
+    
+}
+.general{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 90px;
+}
+.cuadros{
+    display: flex;
+
+}
+.cuadro1{
+    background: rgb(194, 240, 30);
+    width: 53%;
+    height: 27vh;
+    padding: 11%;
+    margin: 5px 5px;
+    border:  2px  double black;
+}
+.cuadro2{
+    background: rgb(194, 240, 30);
+    width: 15%;
+    height: 1vh;
+    padding: 3.5%;
+    margin: 5px 5px;
+    border:  2px  double black;
+}
+.cuadro3{
+    background: rgb(233, 229, 229);
+    width: 15%;
+    height: 1vh;
+    padding: 3.5%;
+    margin: 5px 5px;
+    border:  2px  double black;
+}
