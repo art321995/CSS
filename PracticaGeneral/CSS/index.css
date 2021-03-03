@@ -97,9 +97,28 @@ h1{
     font-size: 20px;
     font-family:'Lato', sans-serif;
 }
+img{
+    margin: 1px 10px 1px 28px;
+    width: 118vh;
+    height: 21vw;
+    position: center;
+}
 .contenedor2{
     display: block;
     
+}
+.cuatxt21{
+    display: flex;
+}
+.ejemplo{
+    display: block;
+}
+.ejemplo1{
+    margin: 1px 1px 1px 120px;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 30px;
+
 }
 .cuadro2{
     
