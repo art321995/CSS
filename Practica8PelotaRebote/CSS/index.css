@@ -1,0 +1,47 @@
+body { background: white; }
+.cuadro {
+  background-color: black;
+  margin: center;
+  width: 1250px;
+  height: 350px;
+  position: relative;
+  border: solid;
+  overflow: hidden;
+}
+.pelota{
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  -webkit-animation: moveX 3.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  -o-animation: moveX 3.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+  animation: moveX 3.5s linear 0s infinite alternate, moveY 4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 7px; } to { left: 1218px; }
+}
+@-moz-keyframes moveX {
+  from { left: 7px; } to { left: 1218px; }
+}
+@-o-keyframes moveX {
+  from { left: 7px; } to { left: 1218px; }
+}
+@keyframes moveX {
+  from { left: 7px; } to { left: 1218px; }
+}
+@-webkit-keyframes moveY {
+  from { top: 7px; } to { top: 315px; }
+}
+@-moz-keyframes moveY {
+  from { top: 7px; } to { top: 315px; }
+}
+@-o-keyframes moveY {
+  from { top: 7px; } to { top: 315px; }
+}
+@keyframes moveY {
+  from { top: 7px; } to { top: 315px; }
+}
