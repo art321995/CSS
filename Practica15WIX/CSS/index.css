@@ -8,7 +8,8 @@ body{
     padding: 0%;
     width: 100%; 
     display: flex;
-    float: right;   
+    float: right;  
+position: fixed; 
 }
 h1{
     margin: 0s;
