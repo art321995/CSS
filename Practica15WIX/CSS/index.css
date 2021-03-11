@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    float: right;
+    background: rgb(35, 35, 61);
+    width: 100%;
+    
+}
+
+li{
+    list-style-type: none;
+    margin: 20px 20px;
+    height: 10vh;
+    float: right;
+    background: rgb(35, 35, 61);
+    
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    font-family: Arial;
+}
+
+li a:hover{
+    color: rgb(228, 228, 46);
+}
+.esfera{
+    margin : 5px 5px 5px 5px;
+    background: rgb(231, 219, 42);
+    width: 30%;
+    height: 100%;
+    color:rgb(35, 35, 61) ;
+    font-size: 20px;
+    text-align: left;
+    font-family: arial;
+}
+span{
+    font-weight: bold;
+}

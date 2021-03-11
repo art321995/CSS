@@ -15,7 +15,7 @@ ul{
 }
 ul li{
     list-style-type: none;
-    margin: 0 20px;
+    margin: 10px 20px;
     height: 10vh;
 }
 
@@ -24,9 +24,10 @@ ul li a{
     display: block;
     padding: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     position: relative;
+    font-family: Arial;
 }
 
 ul:hover li a {
