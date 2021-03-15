@@ -8,7 +8,8 @@ body {
     padding: 0%;
     width: 100%;
     display: flex;
-    float: right;
+    position: fixed;
+    
 }
 
 h1 {
@@ -92,36 +93,37 @@ h2 {
 
 .servicio {
     display: block;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 110px;
 }
 
-h3 {
-    position: absolute;
-    margin-top: 270px;
+.servicio h3{
+    margin-top: 170px;
     margin-left: 350px;
+    margin-bottom: 10px;
     color: rgb(35, 35, 61);
     font-size: 57px;
     font-family: arial;
+  
 }
-
-.barra {
-    width: 1%;
-    height: 1vh;
+.barra1 {
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 12%;
+    height: 1.5vh;
     background:rgb(231, 219, 42);
-    transform: translate(-50%,-50%);
 }
 
 .infoserv{
     display: flex;
     width: 100%;
-    margin-top: 80px;
+    margin-top: -10px;
 }
 .planeamiento{
-    margin-top: 300px;
+    margin-top: 50px;
     background: #f4f7f7;
     width: 30%;
-    height: 65vh;
+    height: 70vh;
 
 }
 .tituloplan{
@@ -138,20 +140,161 @@ h3 {
 }
 .textplan{
     font-family: arial;
-    margin: 0px 15px;
+    margin: 0px 15px 0px 15px;
+    color: rgb(102, 109, 109);
+
+   
 }
 
 .maqueta{
     margin: 0px 20px;
-    margin-top: 300px;
+    margin-top: 50px;
     background: #f4f7f7;
     width: 30%;
-    height: 65vh;
+    height: 70vh;
 }
 .construccion{
     margin: 0px 0px;
-    margin-top: 300px;
+    margin-top: 50px;
     background: #f4f7f7;
     width: 30%;
-    height: 65vh;
+    height: 70vh;
+}
+
+.nosotros{
+    display: flex;
+    padding-top: 90px ;
+    height: 110vh;
+}
+.nosotroscuadro{
+    width: 50%;
+    display: flex;
+    background: #f4f7f7;
+}
+.nosotros h3{
+    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-left: 200px;
+    color: rgb(35, 35, 61);
+    font-size: 57px;
+    font-family: arial;
+}
+.barra2 {
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 18%;
+    height: 1.5vh;
+    background:rgb(231, 219, 42);
+}
+.textnosotros{
+    font-family: arial;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 430px;
+    color: rgb(102, 109, 109);
+    line-height : 25px;
+}
+
+.nosotros img{
+    width: 50%;
+    height: 110vh;
+}
+.cuadroamarillo{
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    background: rgb(231, 219, 42);
+    display: flex;
+}
+
+.contenedor{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 250px ;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.años{
+   width: 150px;
+   height: 10vh;
+}
+
+.años h3{
+   color:rgb(60, 86, 134);
+   font-size: 67px;
+   margin-top: 10px;
+   margin-bottom: 2px;
+   font-family: arial;
+}
+.textaños{
+    text-align: center;
+    color:rgb(60, 86, 134);
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.barra3{
+    background: white;
+    width: 2px;
+    height: 12vh;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.proyectos h3{
+    color:rgb(60, 86, 134);
+    font-size: 67px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family: arial;
+    margin-left: 70px;
+ }
+ .textproyectos{
+    text-align: center;
+    color:rgb(60, 86, 134);
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.proyecto {
+    display: block;
+    padding-left: 150px;
+    padding-right: 110px;
+}
+
+.proyecto h3{
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    color: rgb(35, 35, 61);
+    font-size: 57px;
+    font-family: arial; 
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container > .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+.row img{
+    width: 40vh;
+    height: 20vw;
+    border: 2px solid white;
+    margin: 10px;
 }
