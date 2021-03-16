@@ -28,10 +28,10 @@ body{
 
 img{
     display: block;
-    width: 40vh;
-    height: 20vw;
+    width: 70vh;
+    height: 35vw;
     border: 2px solid white;
-    opacity: .4;
+    opacity: .5;
     margin: 10px;
 }
 img:hover{
