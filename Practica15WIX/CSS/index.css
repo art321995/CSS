@@ -326,6 +326,7 @@ h2 {
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 120px;
+    flex-direction: row;
 }
 
 .imgclientes img{
@@ -335,6 +336,30 @@ h2 {
     filter: grayscale(1);
 }
 
-.imgclientes img:hover{
-    transition: 1s;
+
+.mapa{
+    width: 70vw;
+    height: 50vh;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.preguntas{
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+}
+.contpreguntas{
+    display: block;
+}
+.contpreguntas span{
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: arial;
+    color: rgb(35, 35, 61);
+    font-weight: bold;
+}
+.textpreguntas{
+    margin-top: 20px;
+    font-family: arial;
+    color: rgb(35, 35, 61);
 }
