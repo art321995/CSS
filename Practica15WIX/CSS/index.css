@@ -19,7 +19,7 @@ h1 {
     height: 50%;
     font-family: arial;
     padding-top: 15px;
-    padding-left: 120px;
+    padding-left: 20px;
 }
 
 ul {
@@ -55,6 +55,7 @@ li a:hover {
 }
 
 .esfera {
+    display: flex;
     margin: 0;
     width: 30%;
     height: 16.5vh;
@@ -62,8 +63,14 @@ li a:hover {
     background: rgb(231, 219, 42);
     float: right;
 }
+.esfera img{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100px;
+    height: 10vh;
+}
 
-span {
+.esfera span {
     font-weight: bold;
 }
 
@@ -412,4 +419,54 @@ h2 {
     font-family: arial;
     color: rgb(35, 35, 61);
     font-weight: bold;
+}
+.formulario{
+    margin-top: 40px;
+    color: rgb(35, 35, 61);
+}
+form input[type="text"]{
+    margin: 9px 0px;
+    width: 370px;
+    height: 3.5vh;
+    border: 1px solid black;
+    background:#f4f7f7 ;
+}
+form input[type="email"]{
+    margin: 9px 0px;
+    width: 370px;
+    height: 3.5vh;
+    border: 1px solid black;
+    background:#f4f7f7 ;
+}
+form input[type="tel"]{
+    margin: 9px 0px;
+    width: 370px;
+    height: 3.5vh;
+    border: 1px solid black;
+    background:#f4f7f7 ;
+}
+form input[type="mensaje"]{
+    margin: 9px 0px;
+    width: 370px;
+    height: 17vh;
+    border: 1px solid black;
+    background:#f4f7f7 ;
+}
+form input[type="submit"]{
+    margin: 0px;
+    margin-left: 283px;
+    width: 25%;
+    height: 5vh;
+    background: rgb(35, 35, 61);
+    color: rgb(231, 219, 42);
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    color:rgb(35, 35, 61);
+    background: rgb(231, 219, 42);
+    cursor: pointer;
+    border: transparent;
 }
